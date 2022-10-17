@@ -1,0 +1,170 @@
+
+			body {				
+				font-family: 'Helvetica Neue',Helvetica,Arial;				 
+				overflow-x: hidden;
+				height: 140%;				
+			}
+			#topMenu {
+				float: right;
+				margin-right: 200px;
+			}
+			.menu {
+				font-size: 15px;
+				color: #3399FF;
+			}
+			#imgText {
+				position: relative;
+				left: 190px;
+				z-index: 0;
+				
+			}
+			#detailsDiv {
+				position: absolute;
+				right: 200px;
+				top: 35px;
+				box-sizing: border-box;
+				box-shadow: 0 2px 4px 0 rgba(181,181,181,.7);
+				width: 50%;				
+				min-height: 550px;
+				z-index: 1;
+				padding-left: 35px;
+				border-top: 1px solid #f1f1f5;
+				background-color: #fff;
+				opacity: 0.98;				
+			}
+			h2 {
+				color: #2EA0DF;
+				font: bold 32px Calibri, Arial, Helvetica, sans-serif;
+				margin: 25px 0 7px;
+				margin-bottom: 15px;
+			}
+			.inputClass {
+				background-color: #EDEDED;
+				width: 25%;
+				padding: 5px;
+				border-radius: 5px;
+				margin-right: 27px;
+				border: 0px solid black;
+				margin-bottom: 20px;
+				margin-top: 5px;
+				font-size: 17px;
+			}
+			.label {
+				background-color: #EDEDED;
+				width: 55%;
+				padding: 5px;
+				border-radius: 5px;
+				margin-right: 27px;
+				border: 0px solid black;
+				margin-bottom: 20px;
+				margin-top: 5px;
+				font-size: 17px;
+			}
+			select {
+				margin-bottom: 20px;
+				margin-top: 5px;
+				width: 40%;
+			}
+			.dd {
+				background-color: #EDEDED;
+				width: 70px;
+				padding: 5px;
+				border-radius: 5px;
+				margin-right: 27px;
+				margin-left: 27px;
+				border: 0px solid black;
+				margin-bottom: 20px;
+				font-size: 17px;
+			}
+			.yyyy {
+				background-color: #EDEDED;
+				width: 110px;
+				padding: 5px;
+				border-radius: 5px;
+				margin-right: 27px;
+				border: 0px solid black;
+				margin-bottom: 20px;
+				font-size: 17px;
+			}
+			.inputId {
+				font-weight: bold;
+				margin-bottom: 15px;
+			}
+			
+			.submitButton {
+				padding: 10px;
+				width: 130px;
+				background-color: 0D88D3;
+				font-weight: bold;
+				font-size: 14px;
+				border: none;
+				border-radius: 6px;
+				color: #fff;
+			}
+			.freeMail {
+				color: #2ea0df;
+				line-height: 30px;
+				font-size: 25px;
+			}
+			
+			#process {				
+				position: relative;
+				top: 22%;				
+				text-align: center;
+				font-size: 19px;
+			}
+			.footer p {				
+				position: absolute;
+				left: 40%;
+				top: 135%;
+				font-size: 12px;
+			}
+			.text-clear {
+			  clear: both;
+			}
+			
+			@media only screen and (max-width: 600px) {
+			  body {
+				
+			  }
+			  #detailsDiv {
+				position: relative;
+				left: 1%;
+				top: -70%;
+				margin: auto;
+				width: 100%;				
+				padding: 10px;
+			}
+			.login-box {
+				margin: 0 auto;
+				width: 100%;				
+				position: relative;
+				left: 1%;
+				top: -127%;
+			}
+			}			
+			
+			@media only screen and (max-width: 400px) {
+			  body {
+				
+			  }
+			  #detailsDiv {				  
+				margin: 0 auto;
+				width: 100%;				
+				position: relative;
+				left: 1%;
+				top: -70%;
+			}
+			
+			.login-box {
+				margin: 0 auto;
+				width: 100%;				
+				position: relative;
+				left: 1%;
+				top: -127%;
+			}
+			}
+			
+			
+		
+		
