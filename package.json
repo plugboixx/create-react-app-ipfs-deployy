@@ -1,7 +1,0 @@
-{
-  "name": "divine-snow-6410",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
-}
